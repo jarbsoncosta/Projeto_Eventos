@@ -14,7 +14,7 @@ const usersRouter = Router()
 
 usersRouter.post("/", createUsersController.handle)
 usersRouter.get("/", listAllUsersController.handle)
-usersRouter.get("/:_id", showIdUserController.handle)
+usersRouter.get("/:id", showIdUserController.handle)
 
 
 
